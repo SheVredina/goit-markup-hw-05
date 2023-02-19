@@ -115,22 +115,23 @@ body {
   color: var(--main-text-color);
   transition-property: color;
   transition-duration: 250ms;
+  position: relative;
 }
 .current-link::after {
 content: "";
 display: block;
+position: absolute;
 width: 100%;
 height: 4px;
+left: 0;
+bottom: -29px;
 border-radius: 2px;
 background-color: var(--btn-bg-color-activ);
 }
 
-
 .header-nav:focus,
-.header-nav:hover,
-.header-nav.current {
-  color: var(--btn-bg-color-activ);
-}
+.header-nav:hover {
+  color: var(--btn-bg-color-activ);}
 
 .header-tel-list:focus,
 .header-tel-list:hover {
