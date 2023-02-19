@@ -117,6 +117,7 @@ body {
   transition-duration: 250ms;
   position: relative;
 }
+
 .current-link::after {
 content: "";
 display: block;
