@@ -111,6 +111,7 @@ body {
 .header-list-item + .header-list-item {
   margin-left: 40px;
 }
+
 .header-nav {
   color: var(--main-text-color);
   transition-property: color;
